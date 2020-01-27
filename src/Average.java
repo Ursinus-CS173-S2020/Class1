@@ -4,9 +4,13 @@
 */
 public class Average {
     public static void main(String[] args) {
-        int a = 3;
+        int a = 4;
         int b = 4;
         int c = 6;
-        System.out.println(a + b + c/3);
+        /* We need to cast to a double type so we get
+           a decimal answer, and we also have to be careful
+           with order of operations, since we do a+b+c
+           before dividing */
+        System.out.println(((double)(a + b + c))/3);
     }
 }

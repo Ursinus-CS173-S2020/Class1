@@ -1,8 +1,13 @@
 
 public class Arithmetic {
     public static void main(String[] args) {
-        int a = 2;
-        int b = 5;
-        System.out.println(a + b);
+        int chris; // Make some memory for variable Chris
+        chris = 7; /* Assign 7 to Chris  
+        
+        
+                    This comment continues....
+        */
+        int b = 8;
+        System.out.println(chris*b);
     }
 }
